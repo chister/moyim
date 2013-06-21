@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "moyim",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,6 +7,18 @@
   },
   "dependencies": {
     "express": "3.1.0",
+    "jshtml-express": "0.0.1"
     "jshtml": "*"
-  }
+  },
+  "gitHead": "cc3ef7810b90cd7630183b0193b29b7fc683f37d",
+  "readmeFilename": "README.md",
+  "description": "moyim =====",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chister/moyim"
+  },
+  "author": "michael.chi,david.joo",
+  "license": "BSD"
 }

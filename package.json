@@ -8,7 +8,8 @@
   "dependencies": {
     "express": "3.1.0",
     "jshtml-express": "0.0.1",
-    "jshtml": "*"
+    "jshtml": "*",
+    "mongoose": "3.6.11"
   },
   "gitHead": "cc3ef7810b90cd7630183b0193b29b7fc683f37d",
   "readmeFilename": "README.md",

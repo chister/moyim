@@ -1,0 +1,28 @@
+<h3>Restaurant input form</h3>
+<!--
+	name: String,
+	type1: String,
+	type2: String,
+	type3: String,
+	location: String,
+	neighborhood: String,
+	pricePoint: String,
+	michelinRating: String,
+	nyTimesRating: String,
+	myRating: String,
+	comments: String
+-->
+<form action="/saveRestaurant" method="POST">
+Name: <input id="name" name="name" type="text" /><br>
+Type 1: <input id="type1" name="type1" type="text" /><br>
+Type 2: <input id="type2" name="type2" type="text" /><br>
+Type 3: <input id="type3" name="type3" type="text" /><br>
+Location <input id="location" name="location" type="text" /><br>
+Neighborhood: <input id="neighborhood" name="neighborhood" type="text" /><br>
+pricePoint: <input id="pricePoint" name="pricePoint" type="text" /><br>
+michelinRating: <input id="michelinRating" name="michelinRating" type="text" /><br>
+nyTimesRating: <input id="nyTimesRating" name="nyTimesRating" type="text" /><br>
+myRating: <input id="myRating" name="myRating" type="text" /><br>
+comments: <input id="comments" name="comments" type="text" /><br>
+<input type="submit" />
+</form>

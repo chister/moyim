@@ -1,0 +1,149 @@
+/* 
+Author: David Joo
+*/
+<style>
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+
+body {
+
+    background:url("../images/background/toro-neta.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color:white;
+    line-height: 1.3;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+h1{
+    font-size: 80px;
+    color:white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    padding-left: 10px;
+}
+h2{
+	font-size:50px;
+	color:white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding-left: 10px;	
+}
+
+ul{
+    text-align:top;
+}
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+#box {
+	width: 480px;
+	margin: auto;
+}
+
+#menu_box {
+    margin: auto;
+    width: 450px;
+    height: 250px;
+    border: 5px solid;
+    border-color: #fffff0;
+    border-radius: 25px;
+}
+
+#insideBox{
+	margin-left:20px;
+	font-size:20px;
+}
+
+#bottomBox{
+	text-align: right;
+	font-size: 12px;
+	margin-right: 20px;
+}
+
+#login {
+	width:420px;
+	height:130px;
+	position:absolute;
+	margin-top:20px;
+	margin-left: 20px;
+	color:white;
+	font-size: 20px;
+}
+
+#login1 {
+	float:left;
+	width:125px;
+	border:white;
+}
+
+#login2 {
+	border:white;
+	float:left;
+}
+
+#buttons{
+	width:420px;
+	height:130px;
+	position:absolute;
+	margin-top:150px;
+	margin-left: 10px;
+	color:white;
+}
+
+#createLogin{
+	width:175px;
+	height:50px;
+	margin:auto;
+	margin:10px;
+	border-radius:5px;
+	background-color: white;
+	color:black;
+	font-size:25px;
+	text-align: center;
+	padding-top: 15px;
+	float:left;
+}
+
+#signIn{
+	width:175px;
+	height:50px;
+	margin:auto;
+	margin:10px;
+	border-radius:5px;
+	background-color: gray;
+	color:black;
+	font-size:25px;
+	text-align: center;
+	padding-top: 15px;
+	float:left;
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
+</style>

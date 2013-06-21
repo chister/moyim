@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Moyim</title>
+	
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+	<body>
+		<div id="box">
+		<h1>Moyim</h1>	
+		
+		<div id="menu_box">
+	
+		<div id="login">
+			<div id="login1">
+				Username:
+				<br>
+				<br>
+				Password:
+			</div>
+			<div id="login2">
+				<input type="text" name="username">
+				<br>
+				<br>
+				<input type="password" name="pwd">
+			</div>
+		</div><!--#login-->	
+		
+		<div id="buttons">
+			<div id="createLogin">
+				Create Login
+			</div>
+
+			<a href="search.html">
+			<div id="signIn">
+				Sign-in
+			</div>
+			</a>
+		</div><!--#buttons-->
+
+		</div><!--#menu_box-->
+		<div id="bottomBox">
+		<em>davehjoo</em>
+		</div><!--#bottomBox-->
+		</div><!-- #box --> 
+	
+	</body>
+</html>

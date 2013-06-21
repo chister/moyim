@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+
+	<title>Moyim</title>
+	
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</head>
+
+	<body>
+		<div id="box">
+		<h2>Moyim - Search</h2>	
+		
+		<div id="insideBox">
+			Choose what you're looking for:
+			<form action="">
+			<select name="type">
+			<option value="restaurant">Restaurants</option>
+			<option value="bars">Bars and Lounges</option>
+			<option value="coffee">Coffee Shops</option>
+			</select>
+			</form>
+		</div><!--#insideBox-->
+		<br>
+			
+		<div id="bottomBox">
+			<em>davehjoo</em>
+		</div><!--#bottomBox-->
+		</div><!-- #box --> 
+	
+	</body>
+</html>
